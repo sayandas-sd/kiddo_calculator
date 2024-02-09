@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+    
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(400deg,#2e85a2 20%, #7957c7 ,#32078e,rgb(91, 54, 169));
+    background-size: 180% 180%;
+    animation: gradient-animation 8s ease infinite;
+}
+
+@keyframes gradient-animation{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+button{
+    width: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(70, 69, 69);
+    font-weight: bold;
+    height: 100px;
+    color: white;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 9px;
+    padding: 25px;
+}
+
+#calcultor{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1b1a1a;
+    max-width: 500px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+#displayResult{
+    width: 100%;
+    padding: 20px;
+    margin-top: 10px;
+    font-size: 4rem;
+    text-align: left;
+    border: none;
+    background-color: #1b1a1a;
+    color: white;
+    margin-left: 20px; 
+}
+
+button:hover{
+    background-color: #b6b3b3;
+}
+button:active{
+    background-color: #c9c6c6;
+}
+.btn-grey{
+    background-color: #878484;
+    color: black;
+}
+.btn-yellow{
+    background-color: orange;
+}
+.btn-yellow:hover{
+    background-color: rgb(228, 198, 142);
+}
+.btn-yellow:active{
+    background-color: rgb(233, 210, 168);
+}
+#keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 9px;
+    padding: 25px;
+}
+
+#keys button:nth-child(17) {
+    grid-column: span 2; 
+}
+
+.btn-zero {
+    width: 100%;
+    height: 100px;
+    font-size: 3rem; 
+}

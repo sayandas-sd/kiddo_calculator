@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calaculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="calcultor">
+        <input id="displayResult" readonly>
+        <div id="keys">
+            <button onclick="clearDisplay()" class="btn-grey">AC</button>
+            <button onclick="displayButton('%')" class="btn-grey">%</button>
+            <button onclick="displayButton('^')" class="btn-grey">^</button>
+            <button onclick="displayButton('/')" class="btn-yellow">/</button>
+            <button onclick="displayButton('7')">7</button>
+            <button onclick="displayButton('8')">8</button>
+            <button onclick="displayButton('9')">9</button>
+            <button onclick="displayButton('*')" class="btn-yellow">x</button>
+            <button onclick="displayButton('4')">4</button>
+            <button onclick="displayButton('5')">5</button>
+            <button onclick="displayButton('6')">6</button>
+            <button onclick="displayButton('-')" class="btn-yellow">−</button>
+            <button onclick="displayButton('1')">1</button>
+            <button onclick="displayButton('2')">2</button>
+            <button onclick="displayButton('3')">3</button>
+            <button onclick="displayButton('+')" class="btn-yellow">+</button>
+            <button onclick="displayButton('0')" class="btn-zero">0</button>
+            <button onclick="displayButton('.')">.</button>
+            <button onclick="calculate()">=</button>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
