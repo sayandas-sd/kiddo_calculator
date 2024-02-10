@@ -27,12 +27,12 @@ body{
 }
 
 button{
-    width: 100px;
+    width: 90px;
     border-radius: 50px;
     border: none;
     background-color: rgb(70, 69, 69);
     font-weight: bold;
-    height: 100px;
+    height: 90px;
     color: white;
     font-size: 3rem;
     cursor: pointer;
@@ -48,21 +48,21 @@ button{
 #calcultor{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #1b1a1a;
-    max-width: 500px;
-    border-radius: 50px;
+    max-width: 400px;
+    border-radius: 40px;
     overflow: hidden;
+    padding-right: 40px;
 }
 
 #displayResult{
     width: 100%;
     padding: 20px;
-    margin-top: 10px;
     font-size: 4rem;
-    text-align: left;
+    text-align: right;
     border: none;
-    background-color: #1b1a1a;
+    background-color: #2a2929;
     color: white;
-    margin-left: 20px; 
+    
 }
 
 button:hover{
